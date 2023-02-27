@@ -5,10 +5,11 @@ console.log(arraylenght);
 
 
 for(i=0; i<arraylenght; i++){
-    if(mailtocheck === mailist[i] ){
+    if(mailtocheck === mailist[i]){
         console.log('mail presente nel database');
         break
     }else{
         console.log('mail non presente nel database');
+        break
     }
 }
